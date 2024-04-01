@@ -37,8 +37,7 @@
               "RelativeToolTip": "..\\Entities\\Device.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T19:37:37.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T19:37:37.213Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "..\\Entities\\Plan.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T19:37:36.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T19:37:36.777Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "..\\Entities\\Billing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T19:37:36.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T19:37:36.496Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "..\\Entities\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T19:07:06.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T19:07:06.784Z"
             }
           ]
         }
