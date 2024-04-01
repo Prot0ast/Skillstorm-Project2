@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "QuantumCom": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:55096;http://localhost:55097"
+    }
+  }
+}
