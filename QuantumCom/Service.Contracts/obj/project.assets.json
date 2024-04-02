@@ -4107,24 +4107,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bossb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alanb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
       "projectName": "Service.Contracts",
-      "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
-      "packagesPath": "C:\\Users\\bossb\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\obj\\",
+      "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
+      "packagesPath": "C:\\Users\\alanb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bossb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\alanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4192,7 +4187,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
