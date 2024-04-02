@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\loggerservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|solutionrelative:loggerservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|solutionrelative:service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\loggerservice\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|solutionrelative:loggerservice\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\loggerservice\\loggerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4203C3D7-5FE3-446F-A89E-67D5A09131DD}|LoggerService\\LoggerService.csproj|solutionrelative:loggerservice\\loggerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,25 +42,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 103,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\Class1.cs",
-              "RelativeDocumentMoniker": "LoggerService\\Class1.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\Class1.cs",
-              "RelativeToolTip": "LoggerService\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "QuantumCom.Presentation\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "QuantumCom.Presentation\\AssemblyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:15:46.043Z",
+              "WhenOpened": "2024-04-02T22:28:22.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QuantumCom",
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Service.Contracts\\IServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:26:23.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\ServiceManager.cs",
+              "RelativeToolTip": "Service\\ServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:26:13.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\LoggerService.cs",
+              "RelativeDocumentMoniker": "LoggerService\\LoggerService.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\LoggerService.cs",
+              "RelativeToolTip": "LoggerService\\LoggerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:25:47.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoggerService",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\LoggerService.csproj",
+              "RelativeDocumentMoniker": "LoggerService\\LoggerService.csproj",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\LoggerService\\LoggerService.csproj",
+              "RelativeToolTip": "LoggerService\\LoggerService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-02T22:25:36.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlanConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\PlanConfiguration.cs",
+              "RelativeDocumentMoniker": "Repository\\Configuration\\PlanConfiguration.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\PlanConfiguration.cs",
+              "RelativeToolTip": "Repository\\Configuration\\PlanConfiguration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAArwCEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T22:19:09.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuantumCom.csproj",
               "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
               "RelativeDocumentMoniker": "QuantumCom\\QuantumCom.csproj",
               "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
@@ -52,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Program.cs",
               "RelativeDocumentMoniker": "QuantumCom\\Program.cs",
