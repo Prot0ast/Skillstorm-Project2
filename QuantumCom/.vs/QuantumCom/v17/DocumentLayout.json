@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\quantumcom\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|solutionrelative:contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\configuration\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\configuration\\customerplanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\customerplanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\bossb\\onedrive\\documents\\github\\skillstorm-project2\\quantumcom\\repository\\configuration\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\deviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "QuantumCom\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "QuantumCom\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:36:58.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Program.cs",
+              "RelativeDocumentMoniker": "QuantumCom\\Program.cs",
+              "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Program.cs",
+              "RelativeToolTip": "QuantumCom\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:32:12.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "Contracts\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\IRepositoryManager.cs",
+              "RelativeToolTip": "Contracts\\IRepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:28:08.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\RepositoryContext.cs",
+              "RelativeToolTip": "Repository\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:09:54.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlanConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\PlanConfiguration.cs",
               "RelativeDocumentMoniker": "Repository\\Configuration\\PlanConfiguration.cs",
@@ -43,41 +107,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "DeviceConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\DeviceConfiguration.cs",
               "RelativeDocumentMoniker": "Repository\\Configuration\\DeviceConfiguration.cs",
               "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\DeviceConfiguration.cs",
               "RelativeToolTip": "Repository\\Configuration\\DeviceConfiguration.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T18:46:30.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "Entities\\Customer.cs",
               "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Customer.cs",
               "RelativeToolTip": "Entities\\Customer.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wC4AAAAbAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwDEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T18:36:30.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerPlanConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\CustomerPlanConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\CustomerPlanConfiguration.cs",
-              "ToolTip": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Configuration\\CustomerPlanConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\CustomerPlanConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:49:58.852Z",
               "EditorCaption": ""
             }
           ]

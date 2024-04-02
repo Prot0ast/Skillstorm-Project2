@@ -14,3 +14,5 @@ C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Reposito
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache

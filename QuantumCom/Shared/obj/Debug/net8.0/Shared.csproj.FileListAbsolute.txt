@@ -10,3 +10,6 @@ C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\o
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\bin\Debug\net8.0\Shared.runtimeconfig.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Shared\obj\Debug\net8.0\Shared.genruntimeconfig.cache

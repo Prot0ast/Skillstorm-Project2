@@ -13,3 +13,6 @@ C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contract
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\bin\Debug\net8.0\Contracts.runtimeconfig.json
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\obj\Debug\net8.0\Contracts.genruntimeconfig.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\bin\Debug\net8.0\Entities.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\bin\Debug\net8.0\Entities.pdb
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date

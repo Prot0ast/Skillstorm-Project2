@@ -10,3 +10,6 @@ C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\refint\Service.Contracts.dll
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\bin\Debug\net8.0\Service.Contracts.runtimeconfig.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service.Contracts.genruntimeconfig.cache

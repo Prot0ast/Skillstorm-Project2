@@ -1,5 +1,6 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
+using Repository.Configuration;
 
 namespace Repository
 {
@@ -20,5 +21,14 @@ namespace Repository
 
         public DbSet<Plan> Plans { get; set; }
 
-    }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new BillingConfiguration());
+            modelBuilder.ApplyConfiguration(new  CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new CustomerPlanConfiguration());
+            modelBuilder.ApplyConfiguration(new DeviceConfiguration());
+            modelBuilder.ApplyConfiguration(new PlanConfiguration());
+        }
+
+        }
 }

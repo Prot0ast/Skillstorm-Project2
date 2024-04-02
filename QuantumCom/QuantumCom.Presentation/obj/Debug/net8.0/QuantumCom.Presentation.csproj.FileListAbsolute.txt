@@ -10,3 +10,6 @@ C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumC
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\refint\QuantumCom.Presentation.dll
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.pdb
 C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\ref\QuantumCom.Presentation.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\QuantumCom.Presentation.runtimeconfig.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.csproj.AssemblyReference.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.genruntimeconfig.cache
