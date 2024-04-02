@@ -44,6 +44,6 @@ namespace Entities
         [Required]
         public int? CCV { get; set; }
 
-        public ICollection<Plan> Plans { get; set; }
+        public CustomerPlan? Plans { get; set; }
     }
 }
