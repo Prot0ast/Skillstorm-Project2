@@ -1,0 +1,12 @@
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\QuantumCom.Presentation.deps.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\QuantumCom.Presentation.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\QuantumCom.Presentation.pdb
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.AssemblyInfoInputs.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.AssemblyInfo.cs
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.sourcelink.json
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\refint\QuantumCom.Presentation.dll
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.pdb
+C:\Users\bossb\OneDrive\Documents\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\ref\QuantumCom.Presentation.dll
