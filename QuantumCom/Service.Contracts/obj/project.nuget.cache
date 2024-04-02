@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dSYM1xxQwp1QUknNfpZOl9H0ObN9HXkp6YKo5IOLcx7ftSxIJUAn3KjT1XCZbTrsvCDfi4dW8lubmlyRqtiXAA==",
+  "dgSpecHash": "i83IPr7kuLSXa9uwxn1eFZkOXynFwNQdBYW5oyZRIccWZEU6RHtiE+p4YVRF+k3DIXEygycMH4R6ztlcuAaKPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
+  "projectFilePath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bossb\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\bossb\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {}
+    "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+    "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj",
+        "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\bossb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\obj\\",
+        "outputPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JP8bzU/S4A6B/7d4XA6QM9NmpDL9juR5C+xbB/Qf29m7Ed0oDD01L1wR7qKn/WR2dDU7bb2m+PFQ2CUyq3lC2Q==",
+  "dgSpecHash": "7v5jLuso7j77DoIqyp5dQcYYHyA2jst8cnbL80gV4CsSph2oCatOg2xdKpmW+g7WEOixSS1LN9v4drM1bv3Q1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bossb\\OneDrive\\Documents\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
+  "projectFilePath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bossb\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\bossb\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
