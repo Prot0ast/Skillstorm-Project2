@@ -12,19 +12,18 @@ namespace Repository
         }
 
         public DbSet<Billing>? Billings { get; set; }
-
         public DbSet<Customer>? Customers { get; set; }
-
-        public DbSet<CustomerPlan> CustomerPlans { get; set; }
-
-        public DbSet<Device> Devices { get; set; }
-
-        public DbSet<Plan> Plans { get; set; }
+        public DbSet<CustomerPlan>? CustomerPlans { get; set; }
+        public DbSet<Device>? Devices { get; set; }
+        public DbSet<Plan>? Plans { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Device>()
+                .HasKey(x => new { x.Id, x.CustId });
+
             modelBuilder.ApplyConfiguration(new BillingConfiguration());
-            modelBuilder.ApplyConfiguration(new  CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new CustomerConfiguration());
             modelBuilder.ApplyConfiguration(new CustomerPlanConfiguration());
             modelBuilder.ApplyConfiguration(new DeviceConfiguration());
             modelBuilder.ApplyConfiguration(new PlanConfiguration());

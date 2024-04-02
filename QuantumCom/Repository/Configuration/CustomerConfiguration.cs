@@ -44,7 +44,7 @@ namespace Repository.Configuration
                     Email = "KimMC123@example.com",
                     CardType = "Amex",
                     CardNumber = "9999999999999999",
-                    ExpirationDate = DateTime.Parse("2026-25-12"),
+                    ExpirationDate = DateTime.Parse("2026-12-25"),
                     CCV = 111,
                 },
                 new Customer
