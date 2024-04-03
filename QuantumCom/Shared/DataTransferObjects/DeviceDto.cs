@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shared.DataTransferObjects
 {
-    public class DeviceDto
+    public record DeviceDto
     {
-
+        public int Id { get; init; }
+        public int CustId { get; init; }
+        public string? Name { get; init; }
+        public string? Number { get; init; }
     }
 }
