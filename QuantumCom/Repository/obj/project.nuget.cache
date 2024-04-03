@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aefRpk/UDhwQG8G4Q5lo1MKwAOx6MIL2iatzd7IA+nv/+UOPCMM5UT7ni57W2bEFxyG97XunQ+lHnMdOjAWKiA==",
+  "dgSpecHash": "YrLf/Cu7PvT+ZZwp9aeyqyZFGa5VS1j3lmRj7bSgGzLUQyauhcuCifnBRXf/irDxXoYD9+00a61RGsTAa1fSdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\alanb\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\alanb\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\alanb\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\alanb\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
+    "C:\\Users\\alanb\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
     "C:\\Users\\alanb\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\alanb\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\alanb\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
