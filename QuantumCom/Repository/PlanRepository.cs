@@ -10,6 +10,6 @@ namespace Repository
 {
     public class PlanRepository : RepositoryBase<Plan>, IPlanRepository
     {
-
+        public PlanRepository(RepositoryContext repositoryContext): base(repositoryContext) {}
     }
 }

@@ -1,11 +1,18 @@
 using Microsoft.AspNetCore.HttpOverrides;
 using QuantumCom.Extensions;
+using NLog;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 // Add services to the container.
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddControllers();
+builder.Services.ConfigureLoggerService();
 
 var app = builder.Build();
 app.UseExceptionHandler(opt => { });

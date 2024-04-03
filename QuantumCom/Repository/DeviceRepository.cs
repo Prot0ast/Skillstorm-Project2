@@ -10,6 +10,6 @@ namespace Repository
 {
     public class DeviceRepository : RepositoryBase<Device>, IDeviceRepository
     {
-
+        public DeviceRepository(RepositoryContext repositoryContext) : base(repositoryContext) { }
     }
 }
