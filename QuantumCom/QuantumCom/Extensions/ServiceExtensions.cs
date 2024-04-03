@@ -40,7 +40,7 @@ namespace QuantumCom.Extensions
             services.AddDbContext<RepositoryContext>(opts =>
                 opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-       /* public static IMvcBuilder AddCustomCsvFormatter(this IMvcBuilder builder) =>
-            builder.AddMvcOptions(config => config.OutputFormatters.Add(new CsvOutputFormatter()));*/
+       public static IMvcBuilder AddCustomCsvFormatter(this IMvcBuilder builder) =>
+            builder.AddMvcOptions(config => config.OutputFormatters.Add(new CsvOutputFormatter()));
     }
 }
