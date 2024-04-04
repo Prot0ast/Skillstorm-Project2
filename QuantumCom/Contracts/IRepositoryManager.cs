@@ -1,6 +1,6 @@
 ﻿namespace Contracts
 {
-    public class IRepositoryManager
+    public interface IRepositoryManager
     {
         IBillingRepository Billing { get; }
 
@@ -12,8 +12,6 @@
 
         IPlanRepository Plan { get; }
 
-       // Task SaveAsync();
-
-
+        Task SaveAsync();
     }
 }

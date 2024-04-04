@@ -11,5 +11,7 @@ namespace Repository
     public class BillingRepository : RepositoryBase<Billing>, IBillingRepository
     {
         public BillingRepository(RepositoryContext repositoryContext) : base(repositoryContext) { }
+
+
     }
 }
