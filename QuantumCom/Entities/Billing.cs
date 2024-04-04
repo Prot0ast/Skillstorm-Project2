@@ -11,10 +11,10 @@ namespace Entities
     public class Billing
     {
 
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [ForeignKey(nameof(Customer))]
-        public int CustId { get; set; }
+        public Guid CustId { get; set; }
 
         [DataType(DataType.Currency)]
         public decimal? Amount { get; set; }

@@ -10,10 +10,10 @@ namespace Entities
     public class Device
     {
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Key]
-        public int CustId { get; set; }
+        public Guid CustId { get; set; }
 
         [Required]
         [MaxLength(50)]
