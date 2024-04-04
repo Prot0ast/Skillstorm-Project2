@@ -17,9 +17,7 @@ namespace Repository
         public void DeletePlan(Plan plan) => Delete(plan);
         public async Task<IEnumerable<Plan>> GetAllPlans(bool trackChanges) => await FindAll(trackChanges).OrderBy(p => p.Id).ToListAsync();
 
-        public async Task<Plan> GetPlanByDeviceLimit(int deviceLimit, bool trackChanges) => await FindByCondition(p => p.DeviceLimit.Equals(deviceLimit), trackChanges).SingleOrDefaultAsync();
-
-        public async Task<Plan> GetPlanById(int id, bool trackChanges) => await FindByCondition(p => p.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
+        public async Task<Plan> GetPlanById(Guid id, bool trackChanges) => await FindByCondition(p => p.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
 
 
         public async Task<Plan> GetPlanByName(string name, bool trackChanges) => await FindByCondition(p => p.Name.Equals(name), trackChanges).SingleOrDefaultAsync();

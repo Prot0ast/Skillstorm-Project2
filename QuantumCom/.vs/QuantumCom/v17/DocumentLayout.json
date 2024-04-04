@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\repository\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\contracts\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|solutionrelative:contracts\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\entities\\customerplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\customerplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\entities\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,51 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 95,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Plan.cs",
+              "RelativeDocumentMoniker": "Entities\\Plan.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Plan.cs",
+              "RelativeToolTip": "Entities\\Plan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:40:56.385Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Billing.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Billing.cs",
-              "RelativeDocumentMoniker": "Entities\\Billing.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Billing.cs",
-              "RelativeToolTip": "Entities\\Billing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "Entities\\Device.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Device.cs",
+              "RelativeToolTip": "Entities\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T18:59:03.074Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 111,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BillingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\BillingRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BillingRepository.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\BillingRepository.cs",
-              "RelativeToolTip": "Repository\\BillingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T20:17:56.915Z",
+              "WhenOpened": "2024-04-04T20:40:55.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IBillingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\IBillingRepository.cs",
-              "RelativeDocumentMoniker": "Contracts\\IBillingRepository.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\IBillingRepository.cs",
-              "RelativeToolTip": "Contracts\\IBillingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABJAAAA",
+              "Title": "CustomerPlan.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\CustomerPlan.cs",
+              "RelativeDocumentMoniker": "Entities\\CustomerPlan.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\CustomerPlan.cs",
+              "RelativeToolTip": "Entities\\CustomerPlan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:02:59.938Z",
+              "WhenOpened": "2024-04-04T20:40:54.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Customer.cs",
+              "RelativeToolTip": "Entities\\Customer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T20:40:53.441Z",
               "EditorCaption": ""
             }
           ]

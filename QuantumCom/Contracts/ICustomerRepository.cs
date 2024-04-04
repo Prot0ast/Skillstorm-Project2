@@ -10,7 +10,7 @@ namespace Contracts
     public interface ICustomerRepository
     {
         Task<IEnumerable<Customer>> GetAllCustomers(bool trackChanges);
-        Task<Customer> GetCustomerById(int id, bool trackChanges);
+        Task<Customer> GetCustomerById(Guid id, bool trackChanges);
         void CreateCustomer(Customer customer);
         void DeleteCustomer(Customer customer);
     }

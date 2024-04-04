@@ -10,7 +10,7 @@ namespace Contracts
     public interface IBillingRepository
     {
         Task<IEnumerable<Billing>> GetAllBills(bool trackChanges);
-        Task<Billing> GetBillById(int id, bool trackChanges);
+        Task<Billing> GetBillById(Guid id, bool trackChanges);
         Task<Billing> GetBillByAmount(decimal amount, bool trackChanges);
         void CreateBill(Billing billing);
         void DeleteBill(Billing billing);

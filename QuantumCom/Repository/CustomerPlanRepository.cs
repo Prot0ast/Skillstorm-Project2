@@ -17,7 +17,7 @@ namespace Repository
 
         public void DeleteCustomerPlan(CustomerPlan customerPlan) => Delete(customerPlan);
 
-        public async Task<CustomerPlan> GetCustomerPlanById(int id, bool trackChanges) => await FindByCondition(c => c.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
+        public async Task<CustomerPlan> GetCustomerPlanById(Guid id, bool trackChanges) => await FindByCondition(c => c.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
 
         public async Task<IEnumerable<CustomerPlan>> GetCustomerPlans(bool trackChanges) => await FindAll(trackChanges).OrderBy(c => c.Id).ToListAsync();
     }

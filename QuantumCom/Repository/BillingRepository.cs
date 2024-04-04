@@ -16,6 +16,6 @@ namespace Repository
         public void DeleteBill(Billing billing) => Delete(billing);
         public async Task<IEnumerable<Billing>> GetAllBills(bool trackChanges) => await FindAll(trackChanges).OrderBy(b => b.Id).ToListAsync();
         public async Task<Billing> GetBillByAmount(decimal amount, bool trackChanges) => await FindByCondition(b => b.Amount.Equals(amount), trackChanges).SingleOrDefaultAsync();
-        public async Task<Billing> GetBillById(int id, bool trackChanges) => await FindByCondition(b => b.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
+        public async Task<Billing> GetBillById(Guid id, bool trackChanges) => await FindByCondition(b => b.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
     }
 }

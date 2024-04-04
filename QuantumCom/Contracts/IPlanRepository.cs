@@ -11,9 +11,8 @@ namespace Contracts
     { 
         Task<IEnumerable<Plan>> GetAllPlans(bool trackChanges);
         Task<Plan> GetPlanByPrice(decimal price, bool trackChanges);
-        Task<Plan> GetPlanByDeviceLimit(int deviceLimit, bool trackChanges);
         Task<Plan> GetPlanByName(string name, bool trackChanges);
-        Task<Plan> GetPlanById(int id, bool trackChanges);
+        Task<Plan> GetPlanById(Guid id, bool trackChanges);
         void CreatePlan(Plan plan);
         void DeletePlan(Plan plan);
     }
