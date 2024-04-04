@@ -10,7 +10,7 @@ namespace Entities
 {
     public class Customer
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "First name is required")]
         [MaxLength(50, ErrorMessage = "First name cannot be longer than 50 characters")]
