@@ -35,6 +35,17 @@ namespace Service
                 
         }
 
+        public async Task DeleteBilling(Guid id, bool trackChanges)
+        {
+            var billing = await _repositoryManager.Billing.GetBillById(id, trackChanges);
+            if (billing != null)
+            {
+                throw new BillingNotFoundException(id);
+            }
+            _repositoryManager.Billing.DeleteBill(billing);
+            await _repositoryManager.SaveAsync();
+        }
+
         public async Task<IEnumerable<BillingDto>> GetAllBillings( bool trackChanges)
         {
             var billings = await _repositoryManager.Billing.GetAllBills( trackChanges);
@@ -42,7 +53,18 @@ namespace Service
             return billingDto;
         }
 
-        public async Task<BillingDto> GetBilling(Guid custId, Guid id, bool trackChanges)
+        public async Task<BillingDto> GetBillingByAmount(decimal amount, bool trackChanges)
+        {
+            var billing = await _repositoryManager.Billing.GetBillByAmount( amount, trackChanges);
+            if (billing == null)
+            {
+                throw new BillingNotFoundException(amount);
+            }
+            var billingDto = _mapper.Map<BillingDto>(billing);
+            return billingDto;
+        }
+
+        public async Task<BillingDto> GetBillingById(Guid custId, Guid id, bool trackChanges)
         {
             var billing = await _repositoryManager.Billing.GetBillById(id, trackChanges);
             if(billing == null) 

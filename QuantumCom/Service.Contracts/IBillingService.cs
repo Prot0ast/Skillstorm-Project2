@@ -10,7 +10,10 @@ namespace Service.Contracts
     public interface IBillingService
     {
         Task<IEnumerable<BillingDto>> GetAllBillings(bool trackChanges);
-        Task<BillingDto> GetBilling(Guid custId, Guid id, bool trackChanges);
+        Task<BillingDto> GetBillingById(Guid custId, Guid id, bool trackChanges);
         Task<BillingDto> CreateBilling(BillingForCreationDto billing);
+        Task DeleteBilling(Guid id, bool trackChanges);
+        Task<BillingDto> GetBillingByAmount(decimal amount, bool trackChanges);
+
     }
 }

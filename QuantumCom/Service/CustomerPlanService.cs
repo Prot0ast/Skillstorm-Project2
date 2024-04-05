@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities;
+using Entities.Exceptions;
 using Service.Contracts;
+using Shared.DataTransferObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +23,46 @@ namespace Service
             _repositoryManager = repositoryManager;
             _logger = logger;
             _mapper = mapper;
+        }
+
+        public async Task<CustomerPlanDto> CreateCustomerPlan(CustomerPlanForCreationDto customer)
+        {
+           var customerPlanEntity = _mapper.Map<CustomerPlan>(customer);
+            _repositoryManager.CustomerPlan.CreateCustomerPlan(customerPlanEntity);
+            await _repositoryManager.SaveAsync();
+            var customerPlanToReturn = _mapper.Map<CustomerPlanDto>(customerPlanEntity);
+            return customerPlanToReturn;
+        }
+
+        public async Task DeleteCustomerPlan(Guid id, bool trackChanges)
+        {
+            var customerPlan = await _repositoryManager.CustomerPlan.GetCustomerPlanById(id, trackChanges);
+            if (customerPlan == null)
+            {
+                throw new CustomerNotFoundException(id);
+            }
+
+            _repositoryManager.CustomerPlan.DeleteCustomerPlan(customerPlan);
+            await _repositoryManager.SaveAsync();
+        }
+
+        public async Task<CustomerPlanDto> GetCustomerPlanById(Guid id, bool trackChanges)
+        {
+            var customerPlan = await _repositoryManager.CustomerPlan.GetCustomerPlanById(id, trackChanges);
+            if (customerPlan == null)
+            {
+                throw new CustomerPlanNotFoundException(id);
+            }
+
+            var customerPlanDto = _mapper.Map<CustomerPlanDto>(customerPlan);
+            return customerPlanDto;
+        }
+
+        public async Task<IEnumerable<CustomerPlanDto>> GetCustomerPlans(bool trackChanges)
+        {
+            var customerPlans = await _repositoryManager.CustomerPlan.GetCustomerPlans(trackChanges);
+            var customerPlanDto = _mapper.Map<IEnumerable<CustomerPlanDto>>(customerPlans);
+            return customerPlanDto;
         }
     }
 }
