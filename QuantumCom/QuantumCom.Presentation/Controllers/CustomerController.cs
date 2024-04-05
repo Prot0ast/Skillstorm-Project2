@@ -50,8 +50,6 @@ namespace QuantumCom.Presentation.Controllers
          *          
          *      var createdCustomer = await _service.Customer.CreateCustomer(customer);
          *      return CreatedAtRoute("CustomerById", new { id = createdCustomer.Id }, createdCustomer);
-         *      
-         *      
          * }
          */
         //TODO: uncomment the above line(s) once implemented
