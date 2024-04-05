@@ -22,13 +22,9 @@ namespace Service
         }
         
         public IBillingService Billing => _billingService.Value;
-
         public ICustomerService Customer => _customerService.Value;
-
         public ICustomerPlanService CustomerPlan => _customerPlanService.Value;
-
         public IDeviceService Device => _deviceService.Value;
-
         public IPlanService Plan => _planService.Value;
     }
 }

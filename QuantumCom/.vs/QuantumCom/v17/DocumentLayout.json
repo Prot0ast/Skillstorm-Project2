@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\quantumcom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\customerplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\customerplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\users\\alanb\\source\\repos\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\quantumcom.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\quantumcom.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlanController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\PlanController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\PlanController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\PlanController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\PlanController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:57:25.037Z",
+              "Title": "QuantumCom",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
+              "RelativeDocumentMoniker": "QuantumCom\\QuantumCom.csproj",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\QuantumCom.csproj",
+              "RelativeToolTip": "QuantumCom\\QuantumCom.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T20:32:21.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeviceController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\DeviceController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\DeviceController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\DeviceController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\DeviceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:57:21.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerPlanController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerPlanController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\CustomerPlanController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerPlanController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\CustomerPlanController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:57:17.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:57:12.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BillingController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\BillingController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\BillingController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\BillingController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\BillingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:57:07.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:46:57.458Z",
+              "Title": "QuantumCom.Presentation",
+              "DocumentMoniker": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\QuantumCom.Presentation.csproj",
+              "RelativeDocumentMoniker": "QuantumCom.Presentation\\QuantumCom.Presentation.csproj",
+              "ToolTip": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\QuantumCom.Presentation.csproj",
+              "RelativeToolTip": "QuantumCom.Presentation\\QuantumCom.Presentation.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T20:31:47.582Z",
               "EditorCaption": ""
             }
           ]
