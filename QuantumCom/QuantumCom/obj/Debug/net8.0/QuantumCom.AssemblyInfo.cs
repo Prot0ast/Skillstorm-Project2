@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuantumCom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e8cafee0e9cc40938166b4f4381a2650507240")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a7adcc2d0399688fa024b29104f4df053e5b77")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuantumCom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuantumCom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Contracts;
 using Entities;
+using Entities.Exceptions;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    public class CustomerService// : ICustomerService
+    public class CustomerService : ICustomerService
     {
         private readonly IRepositoryManager _repositoryManager;
         private readonly ILoggerManager _logger;
@@ -24,38 +25,62 @@ namespace Service
             _mapper = mapper;
         }
 
-//        public async Task<CustomerDto> CreateCustomerAsync(CustomerForCreationDTO customer)
-//        {
-//            var customerEntity = _mapper.Map<Customer>(customer);
-//            _repositoryManager.Customer.CreateCustomer(customerEntity);
-//            await _repositoryManager.SaveAsync();
-//            var customerToReturn = _mapper.Map<CustomerDto>(customerEntity);
-//            return customerToReturn;
-//        }
+        public async Task<CustomerDto> CreateCustomerAsync(CustomerForCreationDto customer)
+        {
+            var customerEntity = _mapper.Map<Customer>(customer);
+            _repositoryManager.Customer.CreateCustomer(customerEntity);
+            await _repositoryManager.SaveAsync();
+            var customerToReturn = _mapper.Map<CustomerDto>(customerEntity);
+            return customerToReturn;
+        }
 
-//        public Task DeleteCustomerAsync(Guid id, bool trackChanges)
-//        {
-//            throw new NotImplementedException();
-//        }
+    public async Task DeleteCustomerAsync(Guid id, bool trackChanges)
+    {
+            var customer = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
+            if (customer != null)
+            {
+                throw new CustomerNotFoundException(id);
+            }
 
-//        public Task<IEnumerable<CustomerDto>> GetAllCustomersAsync(bool trackChanges)
-//        {
-//            throw new NotImplementedException();
-//        }
+            _repositoryManager.Customer.DeleteCustomer(customer);
+            await _repositoryManager.SaveAsync();
+    }
 
-//        public Task<(CustomerForUpdateDto customerForUpdate, Customer customerEntity)> GetCustomerForPatchAsync(Guid id, bool trackChanges)
-//        {
-//            throw new NotImplementedException();
-//        }
+    public async Task<IEnumerable<CustomerDto>> GetAllCustomersAsync(bool trackChanges)
+    {
+        var customers = await _repositoryManager.Customer.GetAllCustomers(trackChanges);
+            var customerDto = _mapper.Map<IEnumerable<CustomerDto>>(customers);
+            return customerDto;
+    }
 
-//        public Task SaveChangesForPatchAsync(CustomerForUpdateDto customerForUpdate, Customer customerEntity)
-//        {
-//            throw new NotImplementedException();
-//        }
+    public async Task<(CustomerForUpdateDto customerForUpdate, Customer customerEntity)> GetCustomerForPatchAsync(Guid id, bool trackChanges)
+    {
+            var customerEntity = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
+            if (customerEntity != null)
+            {
+                throw new CustomerNotFoundException(id);
+            }
 
-//        public Task UpdateCustomerAsync(Guid id, CustomerForUpdateDto customer, bool trackChanges)
-//        {
-//            throw new NotImplementedException();
-//        }
-//    }
+            var customerForUpdate = _mapper.Map<CustomerForUpdateDto>(customerEntity);
+            return (customerForUpdate, customerEntity);
+    }
+
+    public async Task SaveChangesForPatchAsync(CustomerForUpdateDto customerForUpdate, Customer customerEntity)
+    {
+            _mapper.Map(customerForUpdate, customerEntity);
+            await _repositoryManager.SaveAsync();
+    }
+
+    public async Task UpdateCustomerAsync(Guid id, CustomerForUpdateDto customer, bool trackChanges)
+    {
+            var customerEntity = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
+            if (customerEntity != null)
+            {
+                throw new CustomerNotFoundException(id);
+            }
+
+            _mapper.Map(customer, customerEntity);
+            await _repositoryManager.SaveAsync();
+    }
+}
 }
