@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared.DataTransferObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,10 @@ namespace Service.Contracts
 {
     public interface IDeviceService
     {
+        Task<DeviceDto> GetDeviceById(Guid deviceId, bool trackChanges);
+        Task<IEnumerable<DeviceDto>> GetAllDevices(bool trackChanges);
+        Task<DeviceDto> CreateDevice(DeviceForCreationDto device);
+        Task DeleteDevice(Guid deviceId, bool trackChanges);
 
     }
 }

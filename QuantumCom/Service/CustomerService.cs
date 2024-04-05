@@ -37,7 +37,7 @@ namespace Service
     public async Task DeleteCustomerAsync(Guid id, bool trackChanges)
     {
             var customer = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
-            if (customer != null)
+            if (customer == null)
             {
                 throw new CustomerNotFoundException(id);
             }
@@ -53,7 +53,19 @@ namespace Service
             return customerDto;
     }
 
-    public async Task<(CustomerForUpdateDto customerForUpdate, Customer customerEntity)> GetCustomerForPatchAsync(Guid id, bool trackChanges)
+        public async Task<CustomerDto> GetCustomerAsync(Guid id, bool trackChanges)
+        {
+            var customer = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
+            if(customer == null)
+            {
+                throw new CustomerNotFoundException(id);
+            }
+
+            var customerDto = _mapper.Map<CustomerDto>(customer);
+            return customerDto;
+        }
+
+        public async Task<(CustomerForUpdateDto customerForUpdate, Customer customerEntity)> GetCustomerForPatchAsync(Guid id, bool trackChanges)
     {
             var customerEntity = await _repositoryManager.Customer.GetCustomerById(id, trackChanges);
             if (customerEntity != null)

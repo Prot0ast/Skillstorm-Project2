@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shared.DataTransferObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,8 @@ namespace Service.Contracts
 {
     public interface IBillingService
     {
-
+        Task<IEnumerable<BillingDto>> GetAllBillings(bool trackChanges);
+        Task<BillingDto> GetBilling(Guid custId, Guid id, bool trackChanges);
+        Task<BillingDto> CreateBilling(BillingForCreationDto billing);
     }
 }

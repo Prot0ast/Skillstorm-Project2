@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|solutionrelative:service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|solutionrelative:service\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service.contracts\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|c:\\github\\skillstorm-project2\\quantumcom\\shared\\datatransferobjects\\customerforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\customerforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|c:\\github\\skillstorm-project2\\quantumcom\\shared\\datatransferobjects\\customerformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\customerformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|c:\\github\\skillstorm-project2\\quantumcom\\shared\\datatransferobjects\\customerforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\customerforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\github\\skillstorm-project2\\quantumcom\\entities\\exceptions\\billingnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\billingnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|c:\\github\\skillstorm-project2\\quantumcom\\shared\\datatransferobjects\\deviceforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA315E7-9243-4BB6-89F9-AC25A0CA4E4E}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\deviceforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 103,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerForManipulationDto.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForManipulationDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerForManipulationDto.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForManipulationDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\CustomerForManipulationDto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowCMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T02:36:22.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerForUpdateDto.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForUpdateDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerForUpdateDto.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForUpdateDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\CustomerForUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T02:09:10.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerForCreationDto.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForCreationDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerForCreationDto.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\CustomerForCreationDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\CustomerForCreationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T02:09:10.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BillingNotFoundException.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Exceptions\\BillingNotFoundException.cs",
-              "RelativeDocumentMoniker": "Entities\\Exceptions\\BillingNotFoundException.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Exceptions\\BillingNotFoundException.cs",
-              "RelativeToolTip": "Entities\\Exceptions\\BillingNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T22:06:58.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Service\\CustomerService.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\CustomerService.cs",
-              "RelativeToolTip": "Service\\CustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\DeviceService.cs",
+              "RelativeDocumentMoniker": "Service\\DeviceService.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\DeviceService.cs",
+              "RelativeToolTip": "Service\\DeviceService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwCQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:24:33.691Z",
+              "WhenOpened": "2024-04-05T14:52:18.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\ICustomerService.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\ICustomerService.cs",
-              "RelativeToolTip": "Service.Contracts\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABZAAAA",
+              "Title": "DeviceForCreationDto.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\DeviceForCreationDto.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\DeviceForCreationDto.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\DataTransferObjects\\DeviceForCreationDto.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects\\DeviceForCreationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T20:27:25.635Z",
+              "WhenOpened": "2024-04-05T14:50:05.921Z",
               "EditorCaption": ""
             }
           ]
