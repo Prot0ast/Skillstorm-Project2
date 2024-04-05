@@ -7,5 +7,6 @@
         ICustomerPlanService CustomerPlan { get; }
         IDeviceService Device { get; }
         IPlanService Plan {  get; }
+        IAuthenticationService Authentication { get; }
     }
 }

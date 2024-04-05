@@ -18,34 +18,31 @@ namespace QuantumCom.Presentation.Controllers
 
         public AuthenticationController(IServiceManager serviceManager) => _service = serviceManager;
 
-        //[HttpPost]
+        [HttpPost]
+        public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
+        {
+            var result = await _service.Authentication.RegisterUser(userForRegistration);
 
-        //public async Task<IActionResult> RegisterUser([FromBody] UserForRegistrationDto userForRegistration)
-        //{
-        //    var result = await _service.Authentication.RegisterUser(userForRegistration);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.TryAddModelError(error.Code, error.Description);
+                }
+                return BadRequest(ModelState);
+            }
+            return Created();
+        }
 
-        //    if (!result.Succeeded)
-        //    {
-        //        foreach (var error in result.Errors)
-        //        {
-        //            ModelState.TryAddModelError(error.Code, error.Description);
-        //        }
-        //        return BadRequest(ModelState);
-        //    }
-        //    return Created();
-        //}
-        // TODO: uncomment once the UserForRegistrationDto is implemtented
+       [HttpPost("login")]
+        public async Task<IActionResult> Authenticate([FromBody] UserForAuthenticationDto userForAuthentication)
+        {
+            if (!await _service.Authentication.ValidateUser(userForAuthentication))
+            {
+                return Unauthorized();
+            }
 
-        //[HttpPost("login")]
-        //public async Task<IActionResult> Authenticate([FromBody] UserForAuthenticationDto userForAuthentication)
-        //{
-        //    if (!await _service.Authentication.ValidateUser(userForAuthentication))
-        //    {
-        //        return Unauthorized();
-        //    }
-
-        //    return Ok(new { Token = await _service.Authentication.CreateToken() });
-        //}
-        // TODO: uncomment once the UserForAuthenticationDto is implemented
+            return Ok(new { Token = await _service.Authentication.CreateToken() });
+        }
     }
 }
