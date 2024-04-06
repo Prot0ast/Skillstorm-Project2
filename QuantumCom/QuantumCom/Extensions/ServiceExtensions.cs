@@ -57,7 +57,7 @@ namespace QuantumCom.Extensions
         public static void ConfigureSwagger(this IServiceCollection services) =>
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new OpenApiInfo { Title = "ContosoUniversity", Version = "v1" });
+                s.SwaggerDoc("v1", new OpenApiInfo { Title = "QuantumCom", Version = "v1" });
             });
 
         public static void ConfigureIdentity(this IServiceCollection services)
