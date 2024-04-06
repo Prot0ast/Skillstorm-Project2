@@ -33,12 +33,12 @@ namespace QuantumCom.Presentation.Controllers
             return Ok(bill);
         }
 
-        [HttpGet("{id:guid}", Name = "BillingByAmount")]
-        public async Task<IActionResult> GetBillingByAmount(decimal amount) 
-        {
-            var bill = await _service.Billing.GetBillingByAmount(amount, trackChanges: false);
-            return Ok(bill);
-        }
+        //[HttpGet("{id:guid}", Name = "BillingByAmount")]
+        //public async Task<IActionResult> GetBillingByAmount(decimal amount) 
+        //{
+        //    var bill = await _service.Billing.GetBillingByAmount(amount, trackChanges: false);
+        //    return Ok(bill);
+        //}
         
         [HttpPost]
         public async Task<IActionResult> CreateBilling([FromBody] BillingForCreationDto billing)

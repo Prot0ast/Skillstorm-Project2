@@ -11,6 +11,19 @@ namespace QuantumCom
 {
     public class MappingProfile : Profile
     {
+        public MappingProfile()
+        {
+            CreateMap<Customer, CustomerDto>()
+                .ForMember(c => c.FullName, 
+                opt => opt.MapFrom(src=> $"{src.FirstName} {src.LastName}"));
+            CreateMap<Billing, BillingDto>();
+            CreateMap<UserForRegistrationDto, User>();
+            CreateMap<CustomerForCreationDto, Customer>();
+            CreateMap<CustomerForUpdateDto, Customer>().ReverseMap();
+            CreateMap<CustomerPlan, CustomerPlanDto>();
+            CreateMap<Plan, PlanDto>();
+            CreateMap<Device, DeviceDto>();
+        }
 
     }
 }

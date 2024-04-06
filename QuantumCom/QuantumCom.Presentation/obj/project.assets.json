@@ -2163,6 +2163,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "Repository": "1.0.0",
           "Service.Contracts": "1.0.0",
+          "Shared": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "compile": {
@@ -5313,7 +5314,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
-      "Service >= 1.0.0"
+      "Service >= 1.0.0",
+      "Service.Contracts >= 1.0.0",
+      "Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5346,8 +5349,14 @@
             "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj": {
               "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj"
             },
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
+            },
             "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj": {
               "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj"
+            },
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
             }
           }
         }

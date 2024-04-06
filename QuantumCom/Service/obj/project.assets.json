@@ -5068,6 +5068,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Repository >= 1.0.0",
       "Service.Contracts >= 1.0.0",
+      "Shared >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 7.5.1"
     ]
   },
@@ -5109,6 +5110,9 @@
             },
             "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
               "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
+            },
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
             }
           }
         }

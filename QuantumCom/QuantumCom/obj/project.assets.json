@@ -2283,7 +2283,9 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.3",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
-          "Service": "1.0.0"
+          "Service": "1.0.0",
+          "Service.Contracts": "1.0.0",
+          "Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/QuantumCom.Presentation.dll": {}
@@ -2321,6 +2323,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "Repository": "1.0.0",
           "Service.Contracts": "1.0.0",
+          "Shared": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "compile": {

@@ -11,6 +11,7 @@ namespace Service
         private readonly Lazy<ICustomerPlanService> _customerPlanService;
         private readonly Lazy<IDeviceService> _deviceService;
         private readonly Lazy<IPlanService> _planService;
+        private readonly Lazy<IAuthenticationService> _authenticationService;
         
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper) 
         {
@@ -26,5 +27,6 @@ namespace Service
         public ICustomerPlanService CustomerPlan => _customerPlanService.Value;
         public IDeviceService Device => _deviceService.Value;
         public IPlanService Plan => _planService.Value;
+        public IAuthenticationService Authentication => _authenticationService.Value;
     }
 }

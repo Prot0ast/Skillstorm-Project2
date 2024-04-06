@@ -16,7 +16,6 @@ namespace Repository.Configuration
             builder.HasData(
                 new Customer
                 {
-                    Id = 1,
                     FirstName = "John",
                     LastName = "Test",
                     Email = "JohnTest@example.com",
@@ -27,7 +26,6 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
-                    Id = 2,
                     FirstName = "Aaron",
                     LastName = "Rodgers",
                     Email = "Arod@example.com",
@@ -38,7 +36,6 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
-                    Id = 3,
                     FirstName = "Kim",
                     LastName = "Mccrary",
                     Email = "KimMC123@example.com",
@@ -49,7 +46,6 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
-                    Id = 4,
                     FirstName = "Marcus",
                     LastName = "Peters",
                     Email = "MarcusPeters@example.com",
@@ -60,7 +56,6 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
-                    Id = 5,
                     FirstName = "Lorenzo",
                     LastName = "Taylot",
                     Email = "LTaylor@example.com",
