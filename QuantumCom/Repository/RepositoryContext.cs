@@ -19,6 +19,7 @@ namespace Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Device>()
                 .HasKey(x => new { x.Id, x.CustId });
 
@@ -27,6 +28,7 @@ namespace Repository
             modelBuilder.ApplyConfiguration(new CustomerPlanConfiguration());
             modelBuilder.ApplyConfiguration(new DeviceConfiguration());
             modelBuilder.ApplyConfiguration(new PlanConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
 
         }

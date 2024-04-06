@@ -16,21 +16,18 @@ namespace Repository.Configuration
             builder.HasData(
                 new Plan
                 {
-                    Id = 1,
                     Name = "Basic",
                     Price = 100,
                     DeviceLimit = 2
                 },
                 new Plan
                 {
-                    Id= 2,
                     Name = "Family",
                     Price = 400,
                     DeviceLimit = 5
                 },
                 new Plan
                 {
-                    Id = 3,
                     Name = "Unlimited",
                     Price = 700,
                     DeviceLimit = 15
