@@ -16,16 +16,18 @@ namespace Repository.Configuration
             builder.HasData(
                 new Customer
                 {
+                    Id = new Guid("54e5ce77-c784-42ab-84d0-0b11d5ec43c3"),
                     FirstName = "John",
                     LastName = "Test",
                     Email = "JohnTest@example.com",
                     CardType = "Visa",
                     CardNumber = "0000000000000000",
                     ExpirationDate = DateTime.Parse("2010-09-01"),
-                    CCV = 111, 
+                    CCV = 111,
                 },
                 new Customer
                 {
+                    Id = new Guid("dea1f480-6a7e-4efd-9e26-f4387ee99398"),
                     FirstName = "Aaron",
                     LastName = "Rodgers",
                     Email = "Arod@example.com",
@@ -36,6 +38,7 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
+                    Id = new Guid("5d1d8eac-2cb6-4f34-9e59-25a3a5ae3473"),
                     FirstName = "Kim",
                     LastName = "Mccrary",
                     Email = "KimMC123@example.com",
@@ -46,6 +49,7 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
+                    Id = new Guid("d576cdc7-927a-408f-833b-dc12fba5c579"),
                     FirstName = "Marcus",
                     LastName = "Peters",
                     Email = "MarcusPeters@example.com",
@@ -56,15 +60,16 @@ namespace Repository.Configuration
                 },
                 new Customer
                 {
+                    Id = new Guid("207e2d46-5364-4b83-b45c-0c27321f3a88"),
                     FirstName = "Lorenzo",
-                    LastName = "Taylot",
+                    LastName = "Taylor",
                     Email = "LTaylor@example.com",
                     CardType = "Apple",
                     CardNumber = "4321432143214321",
                     ExpirationDate = DateTime.Parse("2027-11-01"),
                     CCV = 232,
                 }
-                );
+                ) ;
         }
     }
 }

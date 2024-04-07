@@ -8,8 +8,8 @@ namespace Shared.DataTransferObjects
 {
     public record DeviceDto
     {
-        public int Id { get; init; }
-        public int CustId { get; init; }
+        public Guid Id { get; init; }
+        public Guid CustId { get; init; }
         public string? Name { get; init; }
         public string? Number { get; init; }
     }

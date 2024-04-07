@@ -8,8 +8,8 @@ namespace Shared.DataTransferObjects
 {
     public record BillingDto
     {
-        public int Id { get; init; }
-        public int CustId { get; init; }
+        public Guid Id { get; init; }
+        public Guid CustId { get; init; }
         public decimal? Amount { get; init; }
     }
 }
