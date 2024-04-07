@@ -19,86 +19,37 @@ namespace QuantumCom.Presentation.Controllers
         public PlanController(IServiceManager serviceManager) => _service = serviceManager;
 
         [HttpGet]
-        public async Task<IActionResult> GetPlans()
+        public async Task<IActionResult> GetAllPlans()
         {
-            //var plans = await _service.Plan.GetPlans(trackChanges: false);
-            //return Ok(customers);
-
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var plans = await _service.Plan.GetAllPlans(trackChanges: false);
+            return Ok(plans);
         }
 
         [HttpGet("{id:guid}", Name = "PlanById")]
-        public async Task<IActionResult> GetPlanById()
+        public async Task<IActionResult> GetPlanById(Guid id)
         {
-            //var plan = await _service.Plan.GetPlanById(id, trackChanges: false);
-            //return Ok(plan);
-
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var plan = await _service.Plan.GetPlan(id, trackChanges: false);
+            return Ok(plan);
         }
-
-        /*
-         * [HttpPost]
-         * public async Task<IActionResult> CreatePlan([FromBody] PlanForCreationDto plan)
-         * {
-         *      if (plan == null)
-         *          return BadRequest("PlanForCreationDto is null");
-         *          
-         *      if(!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      var createdPlan = await _service.Plan.CreatePlan(plan);
-         *      return CreatedAtRoute("PlanById", new { id = createdPlan.Id }, createdPlan);
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
+        
+        [HttpPost]
+        public async Task<IActionResult> CreatePlan([FromBody] PlanForCreationDto plan)
+        {
+             if (plan == null)
+                 return BadRequest("PlanForCreationDto is null");
+                   
+             if(!ModelState.IsValid)
+                 return UnprocessableEntity(ModelState);
+                 
+             var createdPlan = await _service.Plan.CreatePlan(plan);
+             return CreatedAtRoute("PlanById", new { id = createdPlan.Id }, createdPlan);
+        }
 
         [HttpDelete("{id:guid}", Name = "PlanById")]
         public async Task<IActionResult> DeletePlan(Guid id)
         {
-            //await _service.Plan.DeletePlan(id, trackChanges:false);
+            await _service.Plan.DeletePlan(id, trackChanges: false);
             return NoContent();
-
-            //TODO: uncomment the above line(s) once implemented
         }
-
-        /*
-         * [HttpPut("{id:guid}")]
-         * public async Task<IActionResult> UpdatePlan(Guid id, [FromBody] PlanForUpdateDto plan)
-         * {
-         *      if (plan == null)
-         *          return BadRequest("PlanForUpdateDto is null");
-         *          
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      await _service.Plan.UpdatePlan(id, plan, trackChanges: true);
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
-
-        /*
-         * [HttpPatch("{id:guid}")]
-         * public async Task<IActionResult> AdjustPlan(Guid id, [FromBody] JsonPatchDocument<PlanForUpdateDto> patchDocument)
-         * {
-         *      if (patchDocument == null)
-         *          return BadRequest("patchDocument object sent from client is null");
-         *          
-         *      var result = await _service.Plan.GetPlanForPatch(id, trackChanges: true);
-         *      patchDocument.ApplyTo(result.planForUpdate);
-         *      
-         *      TryValidateModel(result.planForUpdate);
-         *      
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *      
-         *      await _service.Plan.SaveChangesForPatch(result.planForUpdate, result.planEntity);
-         *      
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
     }
 }

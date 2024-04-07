@@ -138,6 +138,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -206,8 +214,14 @@
               "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj": {
                 "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj"
               },
+              "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
+              },
               "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj": {
                 "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj"
+              },
+              "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
               }
             }
           }
@@ -328,6 +342,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -417,6 +435,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -493,6 +515,9 @@
               },
               "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
                 "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
+              },
+              "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
               }
             }
           }
@@ -516,6 +541,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -535,6 +564,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
             }
           },
           "imports": [

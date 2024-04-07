@@ -1,10 +1,11 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
 using Repository.Configuration;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class RepositoryContext : DbContext
+    public class RepositoryContext : IdentityDbContext<User>
     {
         public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options)
         {
@@ -19,6 +20,7 @@ namespace Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Device>()
                 .HasKey(x => new { x.Id, x.CustId });
 
@@ -27,6 +29,7 @@ namespace Repository
             modelBuilder.ApplyConfiguration(new CustomerPlanConfiguration());
             modelBuilder.ApplyConfiguration(new DeviceConfiguration());
             modelBuilder.ApplyConfiguration(new PlanConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
 
         }

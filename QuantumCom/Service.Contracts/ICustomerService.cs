@@ -17,6 +17,5 @@ namespace Service.Contracts
         Task<(CustomerForUpdateDto customerForUpdate, Customer customerEntity)> GetCustomerForPatchAsync(Guid id, bool trackChanges);
         Task SaveChangesForPatchAsync(CustomerForUpdateDto customerForUpdate, Customer customerEntity);
         Task<CustomerDto> GetCustomerAsync(Guid id, bool trackChanges);
-
     }
 }

@@ -54,3 +54,5 @@ C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\bin\Debug\net8.0\Shared.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Repository\bin\Debug\net8.0\Shared.pdb

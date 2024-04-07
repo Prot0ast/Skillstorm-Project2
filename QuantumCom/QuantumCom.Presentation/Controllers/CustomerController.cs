@@ -22,84 +22,69 @@ namespace QuantumCom.Presentation.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCustomers()
         {
-            //var customers = await _service.Customer.GetCustomers(trackChanges: false);
-            //return Ok(customers);
-            
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var customers = await _service.Customer.GetAllCustomersAsync(trackChanges: false);
+            return Ok(customers);
         }
 
         [HttpGet("{id:guid}", Name = "CustomerById")]
-        public async Task<IActionResult> GetCustomerById() 
+        public async Task<IActionResult> GetCustomerById(Guid id) 
         {
-            //var customer = await _service.Customer.GetCustomerById(id, trackChanges: false);
-            //return Ok(customer);
-
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var customer = await _service.Customer.GetCustomerAsync(id, trackChanges: false);
+            return Ok(customer);
         }
 
-        /*
-         * [HttpPost]
-         * public async Task<IActionResult> CreateCustomer([FromBody] CustomerForCreationDto customer)
-         * {
-         *      if (customer == null)
-         *          return BadRequest("CustomerForCreationDto is null");
-         *          
-         *      if(!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      var createdCustomer = await _service.Customer.CreateCustomer(customer);
-         *      return CreatedAtRoute("CustomerById", new { id = createdCustomer.Id }, createdCustomer);
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
+        [HttpPost]
+        public async Task<IActionResult> CreateCustomer([FromBody] CustomerForCreationDto customer)
+        {
+            if (customer == null)
+               return BadRequest("CustomerForCreationDto is null");
+                   
+            if(!ModelState.IsValid)
+               return UnprocessableEntity(ModelState);
+                   
+            var createdCustomer = await _service.Customer.CreateCustomerAsync(customer);
+            return CreatedAtRoute("CustomerById", new { id = createdCustomer.Id }, createdCustomer);
+         }
 
         [HttpDelete("{id:guid}", Name = "CustomerById")]
         public async Task<IActionResult> DeleteCustomer(Guid id)
         {
-            //await _service.Customer.DeleteCustomer(id, trackChanges:false);
+            await _service.Customer.DeleteCustomerAsync(id, trackChanges: false);
             return NoContent();
-
-            //TODO: uncomment the above line(s) once implemented
         }
 
-        /*
-         * [HttpPut("{id:guid}")]
-         * public async Task<IActionResult> UpdateCustomer(Guid id, [FromBody] CustomerForUpdateDto customer)
-         * {
-         *      if (customer == null)
-         *          return BadRequest("CustomerForUpdateDto is null");
-         *          
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      await _service.Customer.UpdateCustomer(id, customer, trackChanges: true);
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
+        
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> UpdateCustomer(Guid id, [FromBody] CustomerForUpdateDto customer)
+        {
+            if (customer == null)
+                return BadRequest("CustomerForUpdateDto is null");
+                    
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+                   
+            await _service.Customer.UpdateCustomerAsync(id, customer, trackChanges: true);
+            return NoContent();
+        }
 
-        /*
-         * [HttpPatch("{id:guid}")]
-         * public async Task<IActionResult> AdjustCustomer(Guid id, [FromBody] JsonPatchDocument<CustomerForUpdateDto> patchDocument)
-         * {
-         *      if (patchDocument == null)
-         *          return BadRequest("patchDocument object sent from client is null");
-         *          
-         *      var result = await _service.Customer.GetCustomerForPatch(id, trackChanges: true);
-         *      patchDocument.ApplyTo(result.customerForUpdate);
-         *      
-         *      TryValidateModel(result.customerForUpdate);
-         *      
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *      
-         *      await _service.Customer.SaveChangesForPatch(result.customerForUpdate, result.customerEntity);
-         *      
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
+        
+         [HttpPatch("{id:guid}")]
+         public async Task<IActionResult> AdjustCustomer(Guid id, [FromBody] JsonPatchDocument<CustomerForUpdateDto> patchDocument)
+         {
+            if (patchDocument == null)
+               return BadRequest("patchDocument object sent from client is null");
+                   
+            var result = await _service.Customer.GetCustomerForPatchAsync(id, trackChanges: true);
+            patchDocument.ApplyTo(result.customerForUpdate);
+               
+            TryValidateModel(result.customerForUpdate);
+               
+            if (!ModelState.IsValid)
+               return UnprocessableEntity(ModelState);
+               
+            await _service.Customer.SaveChangesForPatchAsync(result.customerForUpdate, result.customerEntity);
+               
+            return NoContent();
+         }
     }
 }

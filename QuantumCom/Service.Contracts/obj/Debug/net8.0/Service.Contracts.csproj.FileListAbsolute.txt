@@ -43,3 +43,8 @@ C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\obj
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service.Contracts.genruntimeconfig.cache
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\bin\Debug\net8.0\Entities.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\bin\Debug\net8.0\Shared.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\bin\Debug\net8.0\Entities.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\bin\Debug\net8.0\Shared.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\Service.Contracts\obj\Debug\net8.0\Service..DEC3DE55.Up2Date

@@ -19,86 +19,37 @@ namespace QuantumCom.Presentation.Controllers
         public DeviceController(IServiceManager serviceManager) => _service = serviceManager;
 
         [HttpGet]
-        public async Task<IActionResult> GetDevices()
+        public async Task<IActionResult> GetAllDevices()
         {
-            //var devices = await _service.Device.GetDevices(trackChanges: false);
-            //return Ok(devices);
-
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var devices = await _service.Device.GetAllDevices(trackChanges: false);
+            return Ok(devices);
         }
 
         [HttpGet("{id:guid}", Name = "DeviceById")]
-        public async Task<IActionResult> GetDeviceById()
+        public async Task<IActionResult> GetDeviceById(Guid id)
         {
-            //var device = await _service.Device.GetDeviceById(id, trackChanges: false);
-            //return Ok(device);
-
-            //TODO: uncomment the above line(s) once implemented and remove the exception from below
-            throw new NotImplementedException();
+            var device = await _service.Device.GetDeviceById(id, trackChanges: false);
+            return Ok(device);
         }
-
-        /*
-         * [HttpPost]
-         * public async Task<IActionResult> CreateDevice([FromBody] DeviceForCreationDto device)
-         * {
-         *      if (device == null)
-         *          return BadRequest("DeviceForCreationDto is null");
-         *          
-         *      if(!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      var createdDevice = await _service.Device.CreateDevice(device);
-         *      return CreatedAtRoute("DeviceById", new { id = createdDevice.Id }, createdDevice);
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
+        
+        [HttpPost]
+        public async Task<IActionResult> CreateDevice([FromBody] DeviceForCreationDto device)
+        {
+           if (device == null)
+               return BadRequest("DeviceForCreationDto is null");
+                   
+           if(!ModelState.IsValid)
+               return UnprocessableEntity(ModelState);
+                   
+           var createdDevice = await _service.Device.CreateDevice(device);
+           return CreatedAtRoute("DeviceById", new { id = createdDevice.Id }, createdDevice);
+        }
 
         [HttpDelete("{id:guid}", Name = "DeviceById")]
         public async Task<IActionResult> DeleteDevice(Guid id)
         {
-            //await _service.Device.DeleteDevice(id, trackChanges:false);
+            await _service.Device.DeleteDevice(id, trackChanges:false);
             return NoContent();
-
-            //TODO: uncomment the above line(s) once implemented
         }
-
-        /*
-         * [HttpPut("{id:guid}")]
-         * public async Task<IActionResult> UpdateDevice(Guid id, [FromBody] DeviceForUpdateDto device)
-         * {
-         *      if (device == null)
-         *          return BadRequest("DeviceForUpdateDto is null");
-         *          
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *          
-         *      await _service.Device.UpdateDevice(id, device, trackChanges: true);
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
-
-        /*
-         * [HttpPatch("{id:guid}")]
-         * public async Task<IActionResult> AdjustDevice(Guid id, [FromBody] JsonPatchDocument<DeviceForUpdateDto> patchDocument)
-         * {
-         *      if (patchDocument == null)
-         *          return BadRequest("patchDocument object sent from client is null");
-         *          
-         *      var result = await _service.Device.GetDeviceForPatch(id, trackChanges: true);
-         *      patchDocument.ApplyTo(result.deviceForUpdate);
-         *      
-         *      TryValidateModel(result.deviceForUpdate);
-         *      
-         *      if (!ModelState.IsValid)
-         *          return UnprocessableEntity(ModelState);
-         *      
-         *      await _service.Device.SaveChangesForPatch(result.deviceForUpdate, result.deviceEntity);
-         *      
-         *      return NoContent();
-         * }
-         */
-        //TODO: uncomment the above line(s) once implemented
     }
 }

@@ -12,7 +12,7 @@ namespace Service.Contracts
         Task <CustomerPlanDto> GetCustomerPlanById(Guid id, bool trackChanges);
         Task<IEnumerable<CustomerPlanDto>> GetCustomerPlans(bool trackChanges);
 
-        Task<CustomerPlanDto> CreateCustomerPlan(CustomerPlanForCreationDto customer);
+        Task<CustomerPlanDto> CreateCustomerPlan(CustomerPlanForCreationDto customerPlan);
 
         Task DeleteCustomerPlan(Guid id, bool trackChanges);
     }

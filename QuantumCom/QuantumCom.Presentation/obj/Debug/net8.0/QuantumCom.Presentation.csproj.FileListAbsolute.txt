@@ -43,3 +43,16 @@ C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentati
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.pdb
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.genruntimeconfig.cache
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\ref\QuantumCom.Presentation.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Contracts.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Entities.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Repository.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Service.Contracts.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Service.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Shared.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Contracts.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Service.Contracts.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Service.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Shared.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Entities.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\Repository.pdb
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumC.BA7B03D3.Up2Date

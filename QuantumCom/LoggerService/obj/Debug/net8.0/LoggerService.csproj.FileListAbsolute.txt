@@ -16,3 +16,5 @@ C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\obj\Deb
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\bin\Debug\net8.0\Shared.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\LoggerService\bin\Debug\net8.0\Shared.pdb

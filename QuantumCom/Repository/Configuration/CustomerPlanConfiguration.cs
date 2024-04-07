@@ -16,23 +16,23 @@ namespace Repository.Configuration
             builder.HasData(
                 new CustomerPlan
                 {
-                    Id = 1,
+                    
                 },
                 new CustomerPlan
                 {
-                    Id = 2,
+                    
                 }, 
                 new CustomerPlan
                 {
-                    Id = 3,
+                    
                 },
                 new CustomerPlan
                 {
-                    Id = 4,
+                    
                 },
                 new CustomerPlan
                 {
-                    Id = 5,
+                    
                 }
                 );
         }
