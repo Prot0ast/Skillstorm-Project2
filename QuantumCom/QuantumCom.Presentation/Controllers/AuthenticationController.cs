@@ -41,8 +41,8 @@ namespace QuantumCom.Presentation.Controllers
             {
                 return Unauthorized();
             }
-
-            return Ok(new { Token = await _service.Authentication.CreateToken() });
+            var tokenDto = await _service.Authentication.CreateToken(populateExp: true);
+            return Ok(tokenDto);
         }
     }
 }
