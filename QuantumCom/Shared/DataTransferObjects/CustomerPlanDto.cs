@@ -8,7 +8,7 @@ namespace Shared.DataTransferObjects
 {
     public record CustomerPlanDto
     {
-        public int Id { get; init; }
+        public Guid Id { get; init; }
         public ICollection<PlanDto> Plans { get; init; }
     }
 }

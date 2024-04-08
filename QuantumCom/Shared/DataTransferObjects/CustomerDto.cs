@@ -9,7 +9,7 @@ namespace Shared.DataTransferObjects
 {
     public record CustomerDto
     {
-        public int Id { get; init; }
+        public Guid Id { get; init; }
         public string? FirstName { get; init; }
         public string? LastName { get; init; }
         public string? FullName {  get; init; }

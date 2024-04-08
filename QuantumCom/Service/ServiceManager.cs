@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
 using Contracts;
+using Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Service.Contracts;
 
 namespace Service
@@ -13,13 +16,14 @@ namespace Service
         private readonly Lazy<IPlanService> _planService;
         private readonly Lazy<IAuthenticationService> _authenticationService;
         
-        public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper) 
+        public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager logger, IMapper mapper, IConfiguration configuration, UserManager<User> userManager) 
         {
             _billingService = new Lazy<IBillingService>(() => new BillingService(repositoryManager, logger, mapper));
             _customerService = new Lazy<ICustomerService>(() => new CustomerService(repositoryManager, logger, mapper));
             _customerPlanService = new Lazy<ICustomerPlanService>(() => new CustomerPlanService(repositoryManager, logger, mapper));
             _deviceService = new Lazy<IDeviceService>(() => new DeviceService(repositoryManager, logger, mapper));
             _planService = new Lazy<IPlanService>(() => new PlanService(repositoryManager, logger, mapper));
+             _authenticationService = new Lazy<IAuthenticationService>(() => new AuthenticationService(logger, mapper,userManager, configuration));
         }
         
         public IBillingService Billing => _billingService.Value;
