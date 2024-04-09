@@ -5073,24 +5073,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bossb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alanb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\bossb\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\obj\\",
+      "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\alanb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bossb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\alanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5104,20 +5099,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj"
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Contracts\\Contracts.csproj"
             },
-            "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Entities.csproj"
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Entities\\Entities.csproj"
             },
-            "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\Repository.csproj"
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Repository\\Repository.csproj"
             },
-            "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\Service.Contracts.csproj"
             },
-            "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
+            "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\alanb\\source\\repos\\Skillstorm-Project2\\QuantumCom\\Shared\\Shared.csproj"
             }
           }
         }
@@ -5186,7 +5181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
