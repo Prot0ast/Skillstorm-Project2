@@ -378,6 +378,12 @@ namespace QuantumCom.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RefreshTokenExpiryTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -430,13 +436,13 @@ namespace QuantumCom.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8e196366-7ee5-4f92-8313-8cbb4fd32fb8",
+                            Id = "a07a603c-bfad-4b95-b5d4-e6445b3dc156",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "f0c51658-f60d-4c05-ad9e-3327e5737140",
+                            Id = "16eecfe0-79b0-4ae5-a35f-84ae014657ea",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });
