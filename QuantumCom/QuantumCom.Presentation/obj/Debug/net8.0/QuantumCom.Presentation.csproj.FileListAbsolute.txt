@@ -69,3 +69,4 @@ C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.pdb
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\QuantumCom.Presentation.genruntimeconfig.cache
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\obj\Debug\net8.0\ref\QuantumCom.Presentation.dll
+C:\Users\alanb\source\repos\Skillstorm-Project2\QuantumCom\QuantumCom.Presentation\bin\Debug\net8.0\QuantumCom.Presentation.xml
