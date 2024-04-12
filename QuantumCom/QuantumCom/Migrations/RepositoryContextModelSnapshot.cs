@@ -28,8 +28,8 @@ namespace QuantumCom.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<decimal?>("Amount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("money");
 
                     b.Property<Guid>("CustId")
                         .HasColumnType("uniqueidentifier");
@@ -294,9 +294,8 @@ namespace QuantumCom.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Price")
-                        .IsRequired()
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("money");
 
                     b.HasKey("Id");
 
@@ -436,13 +435,13 @@ namespace QuantumCom.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a07a603c-bfad-4b95-b5d4-e6445b3dc156",
+                            Id = "b0854bfb-cdc5-41da-bb3b-18070ff6bb74",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "16eecfe0-79b0-4ae5-a35f-84ae014657ea",
+                            Id = "70307240-b972-45c3-8ec8-682154423b2a",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });

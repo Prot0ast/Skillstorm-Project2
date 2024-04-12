@@ -16,7 +16,9 @@ namespace Entities
         [ForeignKey(nameof(Customer))]
         public Guid CustId { get; set; }
 
+
         [DataType(DataType.Currency)]
-        public decimal? Amount { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Amount { get; set; }
     }
 }
