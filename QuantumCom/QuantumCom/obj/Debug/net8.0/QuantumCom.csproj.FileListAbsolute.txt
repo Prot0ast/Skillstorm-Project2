@@ -508,3 +508,4 @@ C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom\obj\Debug\net8.0\refint\Quan
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom\obj\Debug\net8.0\QuantumCom.pdb
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom\obj\Debug\net8.0\QuantumCom.genruntimeconfig.cache
 C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom\obj\Debug\net8.0\ref\QuantumCom.dll
+C:\GitHub\Skillstorm-Project2\QuantumCom\QuantumCom\bin\Debug\net8.0\QuantumCom.Presentation.xml
