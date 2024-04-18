@@ -25,11 +25,14 @@ namespace QuantumCom
             CreateMap<CustomerForUpdateDto, Customer>().ReverseMap();
 
             CreateMap<CustomerPlan, CustomerPlanDto>().ReverseMap();
-            CreateMap<CustomerPlanDto, CustomerPlanDto>().ReverseMap();
+            CreateMap<CustomerPlanDto, CustomerPlan>().ReverseMap();
             CreateMap<CustomerPlanForCreationDto, CustomerPlanDto>().ReverseMap();
+            CreateMap<CustomerPlanForCreationDto, CustomerPlan>().ReverseMap();
 
             CreateMap<Plan, PlanDto>().ReverseMap();
             CreateMap<PlanForCreationDto, Plan>().ReverseMap();
+            CreateMap<PlanForCreationDto, PlanDto>().ReverseMap();
+            CreateMap<Plan, PlanForCreationDto>().ReverseMap();
 
 
             CreateMap<DeviceForCreationDto, Device>().ReverseMap();
