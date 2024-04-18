@@ -40,6 +40,11 @@ namespace QuantumCom.Presentation.Controllers
                    
              if(!ModelState.IsValid)
                  return UnprocessableEntity(ModelState);
+
+             if(plan.Name == "Basic" && plan.DeviceLimit > 2 || plan.Name == "Family" && plan.DeviceLimit > 5 || plan.Name == "Unlimited" && plan.DeviceLimit > 15)
+            {
+                return BadRequest("Maximum Devices Reached");
+            }
                  
              var createdPlan = await _service.Plan.CreatePlan(plan);
              return CreatedAtRoute("PlanById", new { id = createdPlan.Id }, createdPlan);
