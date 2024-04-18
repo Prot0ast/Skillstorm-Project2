@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\github\\skillstorm-project2\\quantumcom\\quantumcom\\migrations\\20240412213833_work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\migrations\\20240412213833_work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\github\\skillstorm-project2\\quantumcom\\quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Migrations\\20240412210842_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuantumCom\\Migrations\\20240412210842_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|c:\\github\\skillstorm-project2\\quantumcom\\contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|solutionrelative:contracts\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\github\\skillstorm-project2\\quantumcom\\entities\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|c:\\github\\skillstorm-project2\\quantumcom\\entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67ECB24-06C6-4BC5-85B3-C67E95DB39CA}|Entities\\Entities.csproj|solutionrelative:entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\github\\skillstorm-project2\\quantumcom\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|c:\\github\\skillstorm-project2\\quantumcom\\quantumcom\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9621344B-A381-469C-8B66-2F8891F11864}|QuantumCom\\QuantumCom.csproj|solutionrelative:quantumcom\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|solutionrelative:service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\github\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|c:\\github\\skillstorm-project2\\quantumcom\\quantumcom.presentation\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C84FE1-F80C-4C75-8297-69916102515E}|QuantumCom.Presentation\\QuantumCom.Presentation.csproj|solutionrelative:quantumcom.presentation\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|c:\\github\\skillstorm-project2\\quantumcom\\contracts\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0B362E3-EED8-463E-96CE-60008DE763B7}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|c:\\github\\skillstorm-project2\\quantumcom\\repository\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C09DE31-3612-46C1-94F5-56B45BBCA6C9}|Repository\\Repository.csproj|solutionrelative:repository\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E47EE0F-69F3-4D8C-A491-B32AD67CB25D}|Service\\Service.csproj|solutionrelative:service\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|c:\\github\\skillstorm-project2\\quantumcom\\service.contracts\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F27BC73-8A12-49E4-94C5-55D8F3034BE3}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +59,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240412213833_work.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Migrations\\20240412213833_work.cs",
-              "RelativeDocumentMoniker": "QuantumCom\\Migrations\\20240412213833_work.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Migrations\\20240412213833_work.cs",
-              "RelativeToolTip": "QuantumCom\\Migrations\\20240412213833_work.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Program.cs",
+              "RelativeDocumentMoniker": "QuantumCom\\Program.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Program.cs",
+              "RelativeToolTip": "QuantumCom\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:38:33.643Z",
+              "WhenOpened": "2024-04-18T18:50:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlanController.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\PlanController.cs",
+              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\PlanController.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\PlanController.cs",
+              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\PlanController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:24:46.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "QuantumCom.Presentation\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom.Presentation\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "QuantumCom.Presentation\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:25:01.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\ICustomerRepository.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\ICustomerRepository.cs",
+              "RelativeToolTip": "Contracts\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:24:23.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPlanRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\IPlanRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IPlanRepository.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Contracts\\IPlanRepository.cs",
+              "RelativeToolTip": "Contracts\\IPlanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:23:35.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:22:32.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Service\\CustomerService.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\CustomerService.cs",
+              "RelativeToolTip": "Service\\CustomerService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:21:09.246Z",
               "EditorCaption": ""
             },
             {
@@ -60,41 +162,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240412210842_test.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Migrations\\20240412210842_test.cs",
-              "RelativeDocumentMoniker": "QuantumCom\\Migrations\\20240412210842_test.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Migrations\\20240412210842_test.cs",
-              "RelativeToolTip": "QuantumCom\\Migrations\\20240412210842_test.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAjwC0AAAAgAAAA",
+              "DocumentIndex": 8,
+              "Title": "PlanRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\PlanRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PlanRepository.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Repository\\PlanRepository.cs",
+              "RelativeToolTip": "Repository\\PlanRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:08:43.087Z",
+              "WhenOpened": "2024-04-18T14:22:24.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Billing.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Billing.cs",
-              "RelativeDocumentMoniker": "Entities\\Billing.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Entities\\Billing.cs",
-              "RelativeToolTip": "Entities\\Billing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
+              "DocumentIndex": 9,
+              "Title": "PlanService.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\PlanService.cs",
+              "RelativeDocumentMoniker": "Service\\PlanService.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service\\PlanService.cs",
+              "RelativeToolTip": "Service\\PlanService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:00:43.271Z",
+              "WhenOpened": "2024-04-18T14:20:33.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "QuantumCom\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\QuantumCom\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "QuantumCom\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD8AAAAQAAAA",
+              "DocumentIndex": 10,
+              "Title": "IPlanService.cs",
+              "DocumentMoniker": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\IPlanService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IPlanService.cs",
+              "ToolTip": "C:\\GitHub\\Skillstorm-Project2\\QuantumCom\\Service.Contracts\\IPlanService.cs",
+              "RelativeToolTip": "Service.Contracts\\IPlanService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T19:50:59.639Z"
+              "WhenOpened": "2024-04-18T14:18:47.467Z",
+              "EditorCaption": ""
             }
           ]
         }

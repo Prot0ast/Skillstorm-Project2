@@ -33,7 +33,7 @@ namespace QuantumCom.Presentation.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> CreateDevice([FromBody] DeviceForCreationDto device)
+        public async Task<IActionResult> CreateDevice(Guid customerId, [FromBody] DeviceForCreationDto device)
         {
            if (device == null)
                return BadRequest("DeviceForCreationDto is null");
