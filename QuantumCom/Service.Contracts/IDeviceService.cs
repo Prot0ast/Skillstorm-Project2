@@ -9,6 +9,7 @@ namespace Service.Contracts
 {
     public interface IDeviceService
     {
+        Task<IEnumerable<DeviceDto>> GetDevicesByCustId(Guid custId, bool trackChanges);
         Task<DeviceDto> GetDeviceById(Guid deviceId, bool trackChanges);
         Task<IEnumerable<DeviceDto>> GetAllDevices(bool trackChanges);
         Task<DeviceDto> CreateDevice(DeviceForCreationDto device);

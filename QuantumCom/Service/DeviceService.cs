@@ -72,5 +72,12 @@ namespace Service
             var deviceDto = _mapper.Map<DeviceDto>(device);
             return deviceDto;
         }
+
+        public async Task<IEnumerable<DeviceDto>> GetDevicesByCustId(Guid custId, bool trackChanges)
+        {
+            var devices = await _repositoryManager.Device.GetDevicesByCustId(custId, trackChanges);
+            var devicesDto = _mapper.Map<IEnumerable<DeviceDto>>(devices);
+            return devicesDto;
+        }
     }
 }

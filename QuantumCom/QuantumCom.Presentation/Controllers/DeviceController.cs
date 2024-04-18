@@ -51,5 +51,12 @@ namespace QuantumCom.Presentation.Controllers
             await _service.Device.DeleteDevice(id, trackChanges:false);
             return NoContent();
         }
+
+        [HttpGet("Customer/{id:guid}", Name = "DevicesByCustomerId")]
+        public async Task<IActionResult> GetDeviceByCustomerId(Guid id)
+        {
+            var result = await _service.Device.GetDevicesByCustId(id, trackChanges: false);
+            return Ok(result);
+        }
     }
 }

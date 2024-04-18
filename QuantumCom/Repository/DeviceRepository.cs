@@ -20,5 +20,8 @@ namespace Repository
         public async Task<IEnumerable<Device>> GetAllDevices(bool trackChanges) => await FindAll(trackChanges).OrderBy(d => d.Id).ToListAsync();
 
         public async Task<Device> GetDeviceById(Guid id, bool trackChanges) => await FindByCondition(d => d.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
+
+        public async Task<IEnumerable<Device>> GetDevicesByCustId(Guid custId, bool trackChanges)  => await FindByCondition(i => i.CustId.Equals(custId), trackChanges).ToListAsync();
+           
     }
 }
