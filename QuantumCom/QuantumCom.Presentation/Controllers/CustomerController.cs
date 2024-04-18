@@ -8,11 +8,13 @@ using Service.Contracts;
 using Shared.DataTransferObjects;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace QuantumCom.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("CorsPolicy")]
     public class CustomerController : ControllerBase
     {
         private readonly IServiceManager _service;

@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/Nlog.config"));
 
 // Add services to the container.
+builder.Services.ConfigureCors();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.ConfigureLoggerService();
@@ -58,7 +59,6 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 
 app.UseCors("CorsPolicy");
 
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.UseSwagger();

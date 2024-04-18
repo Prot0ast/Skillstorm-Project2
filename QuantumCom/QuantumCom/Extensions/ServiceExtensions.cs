@@ -24,7 +24,7 @@ namespace QuantumCom.Extensions
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder
-                    // .WithOrigins("http://www.skillstorm.com")
+                    //.WithOrigins("http://localhost:3000", "http://localhost:3001")
                     .AllowAnyOrigin()
                     // .WithMethods("POST", "PUT", "DELETE", "GET")
                     .AllowAnyMethod()
