@@ -43,7 +43,7 @@ namespace QuantumCom.Presentation.Controllers
 
              if(plan.Name == "Basic" && plan.DeviceLimit > 2 || plan.Name == "Family" && plan.DeviceLimit > 5 || plan.Name == "Unlimited" && plan.DeviceLimit > 15)
             {
-                return BadRequest("Maximum Devices Reached");
+                return BadRequest("Maximum Devices For Plan Reached");
             }
                  
              var createdPlan = await _service.Plan.CreatePlan(plan);
