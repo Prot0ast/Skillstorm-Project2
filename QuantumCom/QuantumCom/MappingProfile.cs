@@ -11,7 +11,6 @@ namespace QuantumCom
 {
     public class MappingProfile : Profile
     {
-        //lol
         public MappingProfile()
         {
             CreateMap<Customer, CustomerDto>()
