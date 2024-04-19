@@ -242,7 +242,7 @@ namespace QuantumCom.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Devices", x => new { x.Id, x.CustId });
+                    table.PrimaryKey("PK_Devices", x => new { x.Id });
                     table.ForeignKey(
                         name: "FK_Devices_Customers_CustomerId",
                         column: x => x.CustomerId,

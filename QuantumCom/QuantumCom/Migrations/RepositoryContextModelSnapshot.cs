@@ -36,7 +36,7 @@ namespace QuantumCom.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Billings");
+                    b.ToTable("Billings", (string)null);
 
                     b.HasData(
                         new
@@ -114,7 +114,7 @@ namespace QuantumCom.Migrations
 
                     b.HasIndex("PlansId");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
 
                     b.HasData(
                         new
@@ -182,7 +182,7 @@ namespace QuantumCom.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CustomerPlans");
+                    b.ToTable("CustomerPlans", (string)null);
 
                     b.HasData(
                         new
@@ -227,11 +227,11 @@ namespace QuantumCom.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id", "CustId");
+                    b.HasKey("Id");
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Devices");
+                    b.ToTable("Devices", (string)null);
 
                     b.HasData(
                         new
@@ -301,7 +301,7 @@ namespace QuantumCom.Migrations
 
                     b.HasIndex("CustomerPlanId");
 
-                    b.ToTable("Plans");
+                    b.ToTable("Plans", (string)null);
 
                     b.HasData(
                         new

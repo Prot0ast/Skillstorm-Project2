@@ -4,15 +4,15 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities
 {
     public class Device
     {
-        [Key]
         public Guid Id { get; set; }
 
-        [Key]
+        [ForeignKey(nameof(Customer))]
         public Guid CustId { get; set; }
 
         [Required]

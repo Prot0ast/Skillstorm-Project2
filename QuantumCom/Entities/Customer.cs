@@ -47,6 +47,6 @@ namespace Entities
 
         public CustomerPlan? Plans { get; set; }
 
-        public Collection<Device> Devices { get; set; }
+        public ICollection<Device>? Devices { get; set; }
     }
 }

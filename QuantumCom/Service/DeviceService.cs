@@ -36,6 +36,7 @@ namespace Service
             }
             deviceEntity.CustId = customer.Id;
             _repositoryManager.Device.CreateDevice(deviceEntity);
+            await _repositoryManager.SaveAsync();
             var deviceToReturn = _mapper.Map<DeviceDto>(deviceEntity);
             return deviceToReturn;
         }

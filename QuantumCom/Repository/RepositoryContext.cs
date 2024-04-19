@@ -21,8 +21,8 @@ namespace Repository
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Device>()
-                .HasKey(x => new { x.Id, x.CustId });
+            //modelBuilder.Entity<Device>()
+            //    .HasKey(x => new { x.Id });
 
             modelBuilder.ApplyConfiguration(new BillingConfiguration());
             modelBuilder.ApplyConfiguration(new CustomerConfiguration());
