@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.DataTransferObjects
+namespace Shared
 {
-    public record CustomerPlanForCreationDto
+    internal class CustomerPlanCollectionDto
     {
-        public Guid CustId { get; init; }
-
     }
-
 }

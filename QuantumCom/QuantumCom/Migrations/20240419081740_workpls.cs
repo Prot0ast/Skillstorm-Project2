@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace QuantumCom.Migrations
 {
     /// <inheritdoc />
-    public partial class work : Migration
+    public partial class workpls : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -74,16 +74,11 @@ namespace QuantumCom.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    CustId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CustId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CustomerPlans", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_CustomerPlans_Customers_CustomerId",
-                        column: x => x.CustId,
-                        principalTable: "Customers",
-                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -248,7 +243,7 @@ namespace QuantumCom.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Devices", x => new { x.Id });
+                    table.PrimaryKey("PK_Devices", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Devices_Customers_CustomerId",
                         column: x => x.CustomerId,
@@ -261,8 +256,8 @@ namespace QuantumCom.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "70307240-b972-45c3-8ec8-682154423b2a", null, "Customer", "CUSTOMER" },
-                    { "b0854bfb-cdc5-41da-bb3b-18070ff6bb74", null, "Admin", "ADMIN" }
+                    { "5f573c54-e48a-49f8-a2a5-0a99b49dd1ef", null, "Admin", "ADMIN" },
+                    { "74410c8b-96e0-441e-b68a-e3ed1f24ce2b", null, "Customer", "CUSTOMER" }
                 });
 
             migrationBuilder.InsertData(
@@ -279,14 +274,14 @@ namespace QuantumCom.Migrations
 
             migrationBuilder.InsertData(
                 table: "CustomerPlans",
-                column: "Id",
-                values: new object[]
+                columns: new[] { "Id", "CustId" },
+                values: new object[,]
                 {
-                    new Guid("0b5c7ab7-b0e6-4265-a8e4-ef6037f03214"),
-                    new Guid("0f321dd1-45bd-45ee-861b-cae561131c61"),
-                    new Guid("7d728329-e865-480c-8b50-93ec58617d8f"),
-                    new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874"),
-                    new Guid("91aca162-93ed-4359-b8e0-22ac8a7998b3")
+                    { new Guid("0b5c7ab7-b0e6-4265-a8e4-ef6037f03214"), new Guid("00000000-0000-0000-0000-000000000000") },
+                    { new Guid("0f321dd1-45bd-45ee-861b-cae561131c61"), new Guid("00000000-0000-0000-0000-000000000000") },
+                    { new Guid("7d728329-e865-480c-8b50-93ec58617d8f"), new Guid("00000000-0000-0000-0000-000000000000") },
+                    { new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874"), new Guid("00000000-0000-0000-0000-000000000000") },
+                    { new Guid("91aca162-93ed-4359-b8e0-22ac8a7998b3"), new Guid("00000000-0000-0000-0000-000000000000") }
                 });
 
             migrationBuilder.InsertData(
@@ -303,15 +298,15 @@ namespace QuantumCom.Migrations
 
             migrationBuilder.InsertData(
                 table: "Devices",
-                columns: new[] { "CustId", "Id", "CustomerId", "Name", "Number" },
+                columns: new[] { "Id", "CustId", "CustomerId", "Name", "Number" },
                 values: new object[,]
                 {
-                    { new Guid("dea1f480-6a7e-4efd-9e26-f4387ee99398"), new Guid("067e0b3f-78db-4f7d-b7eb-d2b803d48418"), null, "Iphone 12 SE", "9012219981" },
-                    { new Guid("5d1d8eac-2cb6-4f34-9e59-25a3a5ae3473"), new Guid("28f8bf3e-a6e5-44f7-963a-109404b3b8ce"), null, "Samsung Galaxy S22 Ultra", "9332910021" },
-                    { new Guid("d576cdc7-927a-408f-833b-dc12fba5c579"), new Guid("5bbf569d-a79c-424c-b077-9b6dff481c6b"), null, "Motorola Edge", "4121229921" },
-                    { new Guid("207e2d46-5364-4b83-b45c-0c27321f3a88"), new Guid("75f89763-1484-456e-a819-3d868343d0c0"), null, "Blackberry OG", "91119119111" },
-                    { new Guid("207e2d46-5364-4b83-b45c-0c27321f3a88"), new Guid("a6cbc0d9-d7a8-47ee-95e7-beecb671613d"), null, "Iphone 11 S", "3329990192" },
-                    { new Guid("54e5ce77-c784-42ab-84d0-0b11d5ec43c3"), new Guid("eb8fa05e-3380-4e4a-bd5e-bc69b401e110"), null, "Iphone 14", "1111111111" }
+                    { new Guid("067e0b3f-78db-4f7d-b7eb-d2b803d48418"), new Guid("dea1f480-6a7e-4efd-9e26-f4387ee99398"), null, "Iphone 12 SE", "9012219981" },
+                    { new Guid("28f8bf3e-a6e5-44f7-963a-109404b3b8ce"), new Guid("5d1d8eac-2cb6-4f34-9e59-25a3a5ae3473"), null, "Samsung Galaxy S22 Ultra", "9332910021" },
+                    { new Guid("5bbf569d-a79c-424c-b077-9b6dff481c6b"), new Guid("d576cdc7-927a-408f-833b-dc12fba5c579"), null, "Motorola Edge", "4121229921" },
+                    { new Guid("75f89763-1484-456e-a819-3d868343d0c0"), new Guid("207e2d46-5364-4b83-b45c-0c27321f3a88"), null, "Blackberry OG", "91119119111" },
+                    { new Guid("a6cbc0d9-d7a8-47ee-95e7-beecb671613d"), new Guid("207e2d46-5364-4b83-b45c-0c27321f3a88"), null, "Iphone 11 S", "3329990192" },
+                    { new Guid("eb8fa05e-3380-4e4a-bd5e-bc69b401e110"), new Guid("54e5ce77-c784-42ab-84d0-0b11d5ec43c3"), null, "Iphone 14", "1111111111" }
                 });
 
             migrationBuilder.InsertData(

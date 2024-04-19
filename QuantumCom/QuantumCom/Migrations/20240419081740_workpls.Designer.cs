@@ -12,8 +12,8 @@ using Repository;
 namespace QuantumCom.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240412213833_work")]
-    partial class work
+    [Migration("20240419081740_workpls")]
+    partial class workpls
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -183,6 +183,9 @@ namespace QuantumCom.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("CustId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.ToTable("CustomerPlans");
@@ -190,29 +193,35 @@ namespace QuantumCom.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874")
+                            Id = new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874"),
+                            CustId = new Guid("00000000-0000-0000-0000-000000000000")
                         },
                         new
                         {
-                            Id = new Guid("0b5c7ab7-b0e6-4265-a8e4-ef6037f03214")
+                            Id = new Guid("0b5c7ab7-b0e6-4265-a8e4-ef6037f03214"),
+                            CustId = new Guid("00000000-0000-0000-0000-000000000000")
                         },
                         new
                         {
-                            Id = new Guid("7d728329-e865-480c-8b50-93ec58617d8f")
+                            Id = new Guid("7d728329-e865-480c-8b50-93ec58617d8f"),
+                            CustId = new Guid("00000000-0000-0000-0000-000000000000")
                         },
                         new
                         {
-                            Id = new Guid("91aca162-93ed-4359-b8e0-22ac8a7998b3")
+                            Id = new Guid("91aca162-93ed-4359-b8e0-22ac8a7998b3"),
+                            CustId = new Guid("00000000-0000-0000-0000-000000000000")
                         },
                         new
                         {
-                            Id = new Guid("0f321dd1-45bd-45ee-861b-cae561131c61")
+                            Id = new Guid("0f321dd1-45bd-45ee-861b-cae561131c61"),
+                            CustId = new Guid("00000000-0000-0000-0000-000000000000")
                         });
                 });
 
             modelBuilder.Entity("Entities.Device", b =>
                 {
                     b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("CustId")
@@ -230,7 +239,7 @@ namespace QuantumCom.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id", "CustId");
+                    b.HasKey("Id");
 
                     b.HasIndex("CustomerId");
 
@@ -438,13 +447,13 @@ namespace QuantumCom.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b0854bfb-cdc5-41da-bb3b-18070ff6bb74",
+                            Id = "5f573c54-e48a-49f8-a2a5-0a99b49dd1ef",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "70307240-b972-45c3-8ec8-682154423b2a",
+                            Id = "74410c8b-96e0-441e-b68a-e3ed1f24ce2b",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });

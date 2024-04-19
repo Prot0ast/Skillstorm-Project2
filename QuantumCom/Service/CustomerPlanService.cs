@@ -33,8 +33,12 @@ namespace Service
             {
                 throw new CustomerNotFoundException(customerPlanEntity.CustId);
             }
+
             customerPlanEntity.CustId = cust.Id;
             _repositoryManager.CustomerPlan.CreateCustomerPlan(customerPlanEntity);
+
+            var plans = await _repositoryManager.CustomerPlan.GetCustomerPlanById(customer.CustId, trackChanges:false);
+            customerPlanEntity.Plans = (ICollection<Plan>?)plans;
             await _repositoryManager.SaveAsync();
             var customerPlanToReturn = _mapper.Map<CustomerPlanDto>(customerPlanEntity);
             return customerPlanToReturn;
@@ -59,7 +63,7 @@ namespace Service
             {
                 throw new CustomerPlanNotFoundException(id);
             }
-
+            
             var customerPlanDto = _mapper.Map<CustomerPlanDto>(customerPlan);
             return customerPlanDto;
         }
