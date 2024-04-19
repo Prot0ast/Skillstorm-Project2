@@ -25,11 +25,11 @@ namespace QuantumCom.Presentation.Controllers
             return Ok(devices);
         }
 
-        [HttpGet("{id:guid}", Name = "DeviceById")]
+        [HttpGet("{id:guid}", Name = "DeviceByCustomerId")]
         public async Task<IActionResult> GetDeviceById(Guid id)
         {
-            var device = await _service.Device.GetDeviceById(id, trackChanges: false);
-            return Ok(device);
+            var result = await _service.Device.GetDevicesByCustId(id, trackChanges: false);
+            return Ok(result);
         }
         
         [HttpPost]
@@ -52,11 +52,11 @@ namespace QuantumCom.Presentation.Controllers
             return NoContent();
         }
 
-        [HttpGet("Customer/{id:guid}", Name = "DevicesByCustomerId")]
-        public async Task<IActionResult> GetDeviceByCustomerId(Guid id)
-        {
-            var result = await _service.Device.GetDevicesByCustId(id, trackChanges: false);
-            return Ok(result);
-        }
+        //[HttpGet("Customer/{id:guid}", Name = "DevicesByCustomerId")]
+        //public async Task<IActionResult> GetDeviceByCustomerId(Guid id)
+        //{
+        //    var result = await _service.Device.GetDevicesByCustId(id, trackChanges: false);
+        //    return Ok(result);
+        //}
     }
 }
