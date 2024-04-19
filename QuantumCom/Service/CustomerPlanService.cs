@@ -28,6 +28,12 @@ namespace Service
         public async Task<CustomerPlanDto> CreateCustomerPlan(CustomerPlanForCreationDto customer)
         {
            var customerPlanEntity = _mapper.Map<CustomerPlan>(customer);
+            var cust = await _repositoryManager.Customer.GetCustomerById(customerPlanEntity.CustId, false);
+            if (customer == null)
+            {
+                throw new CustomerNotFoundException(customerPlanEntity.CustId);
+            }
+            customerPlanEntity.CustId = cust.Id;
             _repositoryManager.CustomerPlan.CreateCustomerPlan(customerPlanEntity);
             await _repositoryManager.SaveAsync();
             var customerPlanToReturn = _mapper.Map<CustomerPlanDto>(customerPlanEntity);

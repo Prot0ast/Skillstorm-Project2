@@ -8,6 +8,7 @@ using Service.Contracts;
 using Shared.DataTransferObjects;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Authorization;
+using Entities;
 
 namespace QuantumCom.Presentation.Controllers
 {
@@ -40,11 +41,10 @@ namespace QuantumCom.Presentation.Controllers
                    
             if(!ModelState.IsValid)
                return UnprocessableEntity(ModelState);
-                   
+         
             var createdCustomerPlan = await _service.CustomerPlan.CreateCustomerPlan(customerPlan);
             return CreatedAtRoute("CustomerPlanById", new { id = createdCustomerPlan.Id }, createdCustomerPlan);
-         }
-
+        }
         [HttpDelete("{id:guid}", Name = "CustomerPlanById")]
         public async Task<IActionResult> DeleteCustomerPlan(Guid id) 
         {

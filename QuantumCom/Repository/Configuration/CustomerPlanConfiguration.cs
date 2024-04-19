@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace Repository.Configuration
             builder.HasData(
                 new CustomerPlan
                 {
-                   Id = new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874")
+                   Id = new Guid("8d373114-e2fe-449f-9c36-eb50dcb02874"),
+               
                 },
                 new CustomerPlan
                 {

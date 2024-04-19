@@ -73,11 +73,17 @@ namespace QuantumCom.Migrations
                 name: "CustomerPlans",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CustId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CustomerPlans", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_CustomerPlans_Customers_CustomerId",
+                        column: x => x.CustId,
+                        principalTable: "Customers",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(

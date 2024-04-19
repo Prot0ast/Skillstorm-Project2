@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shared.DataTransferObjects
 {
-    public record CustomerPlanForCreationDto;
-  
+    public record CustomerPlanForCreationDto
+    {
+        public Guid CustId { get; init; }
+        public ICollection<PlanDto>? Plans { get; init; }
+
+    }
+
 }

@@ -9,8 +9,10 @@ namespace Entities
 {
     public class CustomerPlan
     {
-        [ForeignKey(nameof(Customer.Id))]
         public Guid Id { get; set; }
+
+        [ForeignKey(nameof(Customer.Id))]
+        public Guid CustId { get; set; }
 
         public ICollection<Plan>? Plans { get; set; }
     }

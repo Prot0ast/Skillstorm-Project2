@@ -180,6 +180,9 @@ namespace QuantumCom.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("CustId")
+                      .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.ToTable("CustomerPlans", (string)null);
@@ -227,7 +230,7 @@ namespace QuantumCom.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id", "CustId");
 
                     b.HasIndex("CustomerId");
 
